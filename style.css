@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #141516;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 10px;
+  height: auto;
+}
+
+.form__text h2 {
+  font-size: 2rem;
+  text-align: center;
+  max-width: 600px;
+  background: rgb(62, 62, 62);
+  background: linear-gradient(
+    0deg,
+    rgba(62, 62, 62, 1) 0%,
+    rgba(200, 132, 63, 1) 54%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.form__text.error h2 {
+  color: red;
+}
+
+.form__text p {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #8e8d8d;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.form p a {
+  color: #9e660d;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.form p a:hover {
+  border-bottom: 1px solid #9e660d;
+}
+
+.btn__primary {
+  background: rgb(62, 62, 62);
+  background: linear-gradient(
+    0deg,
+    rgba(62, 62, 62, 1) 0%,
+    rgba(200, 132, 63, 1) 54%
+  );
+  color: #ffffff;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn__primary:hover {
+  background: rgb(200, 132, 63);
+  background: linear-gradient(
+    0deg,
+    rgba(200, 132, 63, 1) 0%,
+    rgba(62, 62, 62, 1) 94%
+  );
+  opacity: 0.8;
+}
+.btn__primary a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.form__text__small {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 600px;
+  background: rgb(62, 62, 62);
+  background: linear-gradient(
+    0deg,
+    rgba(62, 62, 62, 1) 0%,
+    rgba(200, 132, 63, 1) 54%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.card__content__img {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.card__content__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.form__text__description span {
+  font-size: 1.5rem;
+  background: rgb(62, 62, 62);
+  background: linear-gradient(
+    0deg,
+    rgba(62, 62, 62, 1) 0%,
+    rgba(200, 132, 63, 1) 54%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.form__text__description {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+}

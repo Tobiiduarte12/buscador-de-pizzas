@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="hero">
+      <form class="form" id="form__container">
+        <div class="form__text">
+          <h2>¿Que pizza está buscando? 🍕</h2>
+          <p>(Elija del 1 al 5)</p>
+          <small class="form__text__small"></small>
+        </div>
+
+        <div class="form__field">
+          <input type="number" id="input__number" />
+        </div>
+        <p>
+          ¿No encuentra lo que necesita?
+          <a href="#" id="form__carta">vea la carta completa</a>
+        </p>
+        <button type="submit" class="btn btn__primary" id="form__btn">
+          Buscar
+        </button>
+      </form>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
